@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 
 ```cmd
-python AutoCert.py <template.pptx> <names.txt/csv> <"place holder text" (optional)> <csv delimiter (optional)>
+python AutoCert.py <template.pptx> <names.txt/csv> -d <"place holder text" (optional)> -dem <csv delimiter (optional)>
 ```
 By default the placeholder is ```"Jane Smith"```
 

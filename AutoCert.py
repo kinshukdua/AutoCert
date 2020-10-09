@@ -31,4 +31,4 @@ def search_and_replace(search_str, repl_str, input, output):
 with open(args.n) as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=args.dem)
     for name in csv_reader:
-        search_and_replace(args.d, name[0] , args.t ,name[0]+".pptx")
+        search_and_replace(args.d, name[0] , args.t ,"certs/Certificate - " +name[0]+ ".pptx")
